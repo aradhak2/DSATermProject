@@ -2,11 +2,7 @@
 
 Implementation of Dijksta's algorithm
 
-
-===============================================================================
    Author		: Aswathi Radhakrishnan				   	
-   Email Id		: aradhak2@uncc.edu					   					  
-===============================================================================
 
 CONTENTS
 
