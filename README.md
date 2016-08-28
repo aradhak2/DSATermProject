@@ -11,8 +11,8 @@ III. Algorithm for finding reachable vertices
 
 I. GENERAL INFORMATION
 
-1.  Programming Language used	: Java
-    Java Version		: "1.8.0_71"
+1.  Programming Language used	: Java<br>
+    Java Version		: "1.8.0_71"<br>
     Compiler Version		: major version: 52 - Java 8
 
 2.  Executing the program
@@ -42,10 +42,9 @@ II. DATA STRUCTURE DESIGN
 
 1. The list of vertices of the graph is being held in a HashMap, vertexMap. DistanceMap in Dijkstra.java contains the vertices and the minimum distance from the source. It is updated whenever a new minimum distance is found.
 
-Efficiency: Using HashMap is efficient since the time complexity for table lookup is O(1) in the average case and O(n) in the worst case.
-
 2.  Arraylist is used for implementing Min heap which acts as the priority queue for Dijkstra's algorithm.
 
+Efficiency: Using HashMap is efficient since the time complexity for table lookup is O(1) in the average case and O(n) in the worst case.
 
 III. Algorithm for finding reachable vertices
 
