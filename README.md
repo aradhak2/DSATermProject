@@ -1,8 +1,8 @@
 # DSATermProject
 
-Implementation of Dijksta's algorithm
+Implementation of Dijkstra's algorithm
 
-   Author		: Aswathi Radhakrishnan				   	
+Author		: Aswathi Radhakrishnan				   	
 
 CONTENTS
 
@@ -26,12 +26,12 @@ I. GENERAL INFORMATION
 	- Input file name
 		
 4.  Files
-	- graph.java : 			      main class: prints graph and finds reachable vertices at any given instance
-	- Vertex.java :			      holds Vertex(es)
-	- Edge.java :			        holds Edges
-	- Dijkstra.java : 		    computes shortest path from source to destination
+	- graph.java : 			main class: prints graph and finds reachable vertices at any given instance
+	- Vertex.java :			holds Vertex(es)
+	- Edge.java :			holds Edges
+	- Dijkstra.java : 		computes shortest path from source to destination
 	- PriorityQueue.java :  	functions as a priority queue in Dijkstra's algorithm
-	- State.java : 			      an enum - holds values UP and DOWN
+	- State.java : 			an enum - holds values UP and DOWN
 	- GraphException.java : 	handles exceptions
 
 Example Usage: java graph network.txt
