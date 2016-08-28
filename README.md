@@ -32,10 +32,11 @@ I. GENERAL INFORMATION
 	- State.java : 			an enum - holds values UP and DOWN
 	- GraphException.java : 	handles exceptions
 
-Example Usage: java graph network.txt
-	
-<input file>
-	(required) Specifies the input file to construct the initial graph	
+Example Usage: 
+```
+java graph network.txt
+```	
+network.txt contains information necessary to construct the initial graph	
 
 II. DATA STRUCTURE DESIGN	
 
@@ -72,5 +73,6 @@ end
 print reachable vertices
 ```
 
+```
 Time complexity : O(V(V+E))
-
+```
