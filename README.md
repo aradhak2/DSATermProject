@@ -49,6 +49,7 @@ Efficiency: Using HashMap is efficient since the time complexity for table looku
 III. Algorithm for finding reachable vertices
 
 
+```
 for all vertices in the graph				
 	if vertex is DOWN
 		do nothing
@@ -69,6 +70,7 @@ for all vertices in the graph
 	end
 end
 print reachable vertices
+```
 
 Time complexity : O(V(V+E))
 
