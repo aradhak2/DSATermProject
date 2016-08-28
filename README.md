@@ -2,17 +2,15 @@
 
 Implementation of Dijkstra's algorithm
 
-Author		: Aswathi Radhakrishnan				   	
-
 CONTENTS
 
-I.   GENERAL INFORMATION
-II.  DATA STRUCTURE DESIGN
+I.   GENERAL INFORMATION<br>
+II.  DATA STRUCTURE DESIGN<br>
 III. Algorithm for finding reachable vertices
 
 
 I. GENERAL INFORMATION
-----------------------
+
 1.  Programming Language used	: Java
     Java Version		: "1.8.0_71"
     Compiler Version		: major version: 52 - Java 8
@@ -40,7 +38,7 @@ Example Usage: java graph network.txt
 	(required) Specifies the input file to construct the initial graph	
 
 II. DATA STRUCTURE DESIGN	
--------------------------
+
 
 1. The list of vertices of the graph is being held in a HashMap, vertexMap. DistanceMap in Dijkstra.java contains the vertices and the minimum distance from the source. It is updated whenever a new minimum distance is found.
 
@@ -50,7 +48,7 @@ Efficiency: Using HashMap is efficient since the time complexity for table looku
 
 
 III. Algorithm for finding reachable vertices
--------------------------------------------
+
 
 for all vertices in the graph				
 	if vertex is DOWN
